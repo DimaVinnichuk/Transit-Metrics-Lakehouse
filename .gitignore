@@ -1,0 +1,14 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local environments
+venv/
+.env
+
+# Docker data (MinIO and Postgres storage)
+.minio.sys/
+data/
+
+# OS files
+.DS_Store
